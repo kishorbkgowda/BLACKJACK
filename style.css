@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Skranji:wght@700&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Poppins&display=swap');
 
 
 body
@@ -95,8 +94,25 @@ button
 
 button:hover
 {
-
     box-shadow: 0 0 40px goldenrod;
-    scale: 1.05;
-    
+    scale: 1.05;  
+}
+
+.para2
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p4
+{
+
+  overflow: hidden;
+  width: fit-content;
+  text-align: center;
+  padding: 10px;
+   
+  
+
 }
